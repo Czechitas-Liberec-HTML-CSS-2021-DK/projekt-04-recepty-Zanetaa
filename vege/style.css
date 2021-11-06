@@ -47,7 +47,7 @@ body{
     background-image: url("images/salat.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 200px;
+    min-height: 250px;
 }
 
 .recept2 {
@@ -100,14 +100,10 @@ body{
     padding: 0.5rem;
 }
 
-.recept1 {
-    min-height: 250px;
-    }
 
 @media (min-width: 480px) {
     body {
         color:violet;
-        display: flex;
     }
     .recept1 {
         min-height: 250px;
@@ -133,6 +129,15 @@ body{
         min-height:150px;
         font-size: 1.2rem;
     }
+
+   .maly1 {
+       display:flex;
+   }
+
+   .maly2 {
+    display:flex;
+}
+
 
 }
 
