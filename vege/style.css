@@ -209,30 +209,30 @@ body{
     }*/
     .recept1 {
         min-height: 250px;
-        font-size: 1.5rem;
+        /*font-size: 1.5rem;*/
     }
     
     .recept2 {
         min-height:150px;
-        font-size: 1.2rem;
+        /*font-size: 1.2rem;*/
         flex-basis: 50%;
     }
     
     .recept3 {
         min-height: 150px;
-        font-size: 1.2rem;
+        /*font-size: 1.2rem;*/
         flex-basis: 50%;
     }
     
     .recept4 {
         min-height:150px;
-        font-size: 1.2rem;
+        /*font-size: 1.2rem;*/
         flex-basis: 50%;
     }
     
     .recept5 {
         min-height:150px;
-        font-size: 1.2rem;
+        /*font-size: 1.2rem;*/
         flex-basis: 50%;
     }
 
@@ -262,7 +262,20 @@ body{
     align-items: stretch;
     }
 
-
+    .vlevodole1 {
+        font-size: 2rem;
+        padding: 1.25rem;
+        top:180px;
+    }
+    
+    .vlevodole2,
+    .vlevodole3,
+    .vlevodole4,
+    .vlevodole5 {
+        font-size: 1,5rem;
+        padding: 1.25rem;
+        top:100px
+    }
 
 }
 
@@ -273,40 +286,60 @@ body{
     }*/
     .recept1 {
         min-height: 400px;
-        font-size: 3rem;
+        /*font-size: 3rem;*/
+        width: 400px;
     }
     
     .recept2 {
         min-height:200px;
-        font-size: 1.75rem;
-        flex-basis: auto;
-        /*flex-basis: none;*/
+        /*font-size: 1.75rem;*/
+        /*flex-basis: 100%;*/
+        width: 325px;
     }
     
     .recept3 {
         min-height: 200px;
-        font-size: 1.75rem;
-        flex-basis: auto;
-        /*flex-basis: none;*/
+        /*font-size: 1.75rem;*/
+        /*flex-basis: 100%;*/
+        width:325px;
     }
     
     .recept4 {
         min-height:200px;
-        font-size: 1.75rem;
-        /*flex-basis: 50%;*/
+        /*font-size: 1.75rem;*/
+        /*flex-basis: 100%;*/
+        width:325px;
     }
     
     .recept5 {
         min-height:200px;
-        font-size: 1.75rem;
-        /*flex-basis: none;*/
+        /*font-size: 1.75rem;*/
+        /*flex-basis: 100%;*/
+        width:325px;
     }
 
     .kontejner1 {
         display:flex;
     }
 
-    .kontejner2 {
+    /*.kontejner2 {
         display:flex;
         flex-wrap:wrap;
+    }*/
+
+    .vlevodole1 {
+        font-size: 3rem;
+        padding: 1.25rem;
+        top:200px;
     }
+    
+    .vlevodole2,
+    .vlevodole3,
+    .vlevodole4,
+    .vlevodole5 {
+        font-size: 1,75rem;
+        padding: 1.25rem;
+        top:120px;
+    }
+
+}
