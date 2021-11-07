@@ -80,24 +80,27 @@ body{
 
 
 .vlevonahore {
+    /*position: absolute;
+    top:150px;*/
     font-size:0.8rem;
     padding: 0.5rem;
-    /*text-align: left;*/
-    justify-content: left;
+    text-align: left;
+    justify-content: top;
 }
 
 .vpravonahore {
     font-size:0.8rem;
     font-weight: 400;
     padding: 0.5rem;
-    /*text-align: right;*/
-    justify-content: right;
+    text-align: right;
+    justify-content: top;
 }
 
 .vlevodole {
     font-weight: 800;
     font-size:1.2rem;
     padding: 0.5rem;
+    text-align:bottom;
 }
 
 
@@ -136,8 +139,7 @@ body{
 
    .maly2 {
     display:flex;
-}
-
+    }
 
 }
 
@@ -171,4 +173,15 @@ body{
         font-size: 1.75rem;
     }
 
+    .kontejner {
+        display:flex;
+    }
+
+    .maly1 {
+        flex-wrap: wrap;
+    }
+ 
+    .maly2 {
+     flex-wrap: wrap;
+     }
 }
