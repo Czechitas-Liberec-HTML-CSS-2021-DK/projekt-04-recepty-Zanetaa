@@ -37,3 +37,309 @@ body {
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
+
+body{
+    color:white;
+}
+
+.vlevodole1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1,75rem;
+    padding: 0.5rem;
+}
+
+.vlevodole2,
+.vlevodole3,
+.vlevodole4,
+.vlevodole5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1,2rem;
+    padding: 0.5rem;
+}
+
+.vpravonahore1,
+.vpravonahore2,
+.vpravonahore3,
+.vpravonahore4,
+.vpravonahore5,
+.vlevonahore1,
+.vlevonahore2,
+.vlevonahore3,
+.vlevonahore4,
+.vlevonahore5 {
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+
+.recept1 {
+    background-image: url("images/salat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+}
+
+.recept2 {
+    background-image: url("images/chlebicek.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:90px;
+}
+
+.recept3 {
+    background-image: url("images/cizrna.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90px;
+}
+
+.recept4 {
+    background-image: url("images/tacos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:90px;
+}
+
+.recept5 {
+    background-image: url("images/burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:90px;
+}
+
+
+.recept1 {
+    position:relative;
+}
+
+.vlevodole1 {
+    position:absolute;
+    top:200px;
+}
+
+.vpravonahore1 {
+    text-align: right;
+}
+
+
+.recept2 {
+    position:relative;
+}
+
+.vlevodole2 {
+    position:absolute;
+    top:65px;
+}
+
+.vpravonahore2 {
+    text-align: right;
+}
+
+.recept3 {
+    position:relative;
+}
+
+.vlevodole3 {
+    position:absolute;
+    top:65px;
+}
+
+.vpravonahore3 {
+    text-align: right;
+}
+
+.recept4 {
+    position:relative;
+}
+
+.vlevodole4 {
+    position:absolute;
+    top:65px;
+}
+
+.vpravonahore4 {
+    text-align: right;
+}
+
+.recept5 {
+    position:relative;
+}
+
+.vlevodole5 {
+    position:absolute;
+    top:65px;
+}
+
+.vpravonahore5 {
+    text-align: right;
+}
+
+/*.vlevonahore {
+    /*position: absolute;
+    top:150px;
+    font-size:0.8rem;
+    padding: 0.5rem;
+    text-align: left;
+    text-orientation: upright;
+    justify-content: top;
+}
+
+.vpravonahore {
+    font-size:0.8rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    text-align: right;
+    justify-content: top;
+}
+
+.vlevodole {
+    font-weight: 800;
+    font-size:1.2rem;
+    padding: 0.5rem;
+    text-align:bottom;
+}*/
+
+
+@media (min-width: 480px) {
+    /*body {
+        color:violet;
+    }*/
+    .recept1 {
+        min-height: 250px;
+        /*font-size: 1.5rem;*/
+    }
+    
+    .recept2 {
+        min-height:150px;
+        /*font-size: 1.2rem;*/
+        flex-basis: 50%;
+    }
+    
+    .recept3 {
+        min-height: 150px;
+        /*font-size: 1.2rem;*/
+        flex-basis: 50%;
+    }
+    
+    .recept4 {
+        min-height:150px;
+        /*font-size: 1.2rem;*/
+        flex-basis: 50%;
+    }
+    
+    .recept5 {
+        min-height:150px;
+        /*font-size: 1.2rem;*/
+        flex-basis: 50%;
+    }
+
+    .vlevodole2 {
+        top:120px;
+    }
+
+    .vlevodole3 {
+        top:120px;
+    }
+
+    .vlevodole4 {
+        top:120px;
+    }
+
+    .vlevodole5 {
+        top:120px;
+    }
+
+   .maly1 {
+       display:flex;
+       align-items: stretch;
+   }
+
+   .maly2 {
+    display:flex;
+    align-items: stretch;
+    }
+
+    .vlevodole1 {
+        font-size: 2rem;
+        padding: 1.25rem;
+        top:180px;
+    }
+    
+    .vlevodole2,
+    .vlevodole3,
+    .vlevodole4,
+    .vlevodole5 {
+        font-size: 1,5rem;
+        padding: 1.25rem;
+        top:100px
+    }
+
+}
+
+
+@media (min-width: 860px) {
+    /*body {
+        color:red;
+    }*/
+    .recept1 {
+        min-height: 400px;
+        /*font-size: 3rem;*/
+        width: 600px;
+    }
+    
+    .recept2 {
+        min-height:200px;
+        /*font-size: 1.75rem;*/
+        /*flex-basis: 100%;*/
+        width: 400px;
+    }
+    
+    .recept3 {
+        min-height: 200px;
+        /*font-size: 1.75rem;*/
+        /*flex-basis: 100%;*/
+        width:400px;
+    }
+    
+    .recept4 {
+        min-height:200px;
+        /*font-size: 1.75rem;*/
+        /*flex-basis: 100%;*/
+        width:400px;
+    }
+    
+    .recept5 {
+        min-height:200px;
+        /*font-size: 1.75rem;*/
+        /*flex-basis: 100%;*/
+        width:400px;
+    }
+
+    .kontejner1 {
+        display:flex;
+    }
+
+    /*.kontejner2 {
+        display:flex;
+        flex-wrap:wrap;
+    }*/
+
+    .vlevodole1 {
+        font-size: 3rem;
+        padding: 1.25rem;
+        top:200px;
+    }
+    
+    .vlevodole2,
+    .vlevodole3,
+    .vlevodole4,
+    .vlevodole5 {
+        font-size: 1,75rem;
+        padding: 1.25rem;
+        top:150px;
+    }
+
+}
